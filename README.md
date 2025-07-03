@@ -1,4 +1,4 @@
-<img src="Assets/TeamLogo.jpg" alt="Dragon Tech Logo" width="200"/>
+<img src="TeamLogo.jpg" alt="Dragon Tech Logo" width="200"/>
 
 # Solar PV Efficiency Prediction
 
