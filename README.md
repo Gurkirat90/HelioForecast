@@ -1,6 +1,6 @@
 # Solar PV Efficiency & Power Output Prediction
 
-<img src="Assets/TeamLogo.jpg" alt="Dragon Tech Logo" width="220"/>
+<img src="ASSETS/TeamLogo.jpg" alt="Dragon Tech Logo" width="220"/>
 
 Machine learning models for solar PV efficiency and power output prediction — developed as part of the **Zelestra x AWS ML Ascend Challenge (2nd Edition)**.
 
@@ -26,7 +26,7 @@ This project was built using operational solar power plant data provided **exclu
 
 ## 🚀 Project Goals
 
-![Zelestra x AWS ML Ascend Challenge](Assets/ZELESTRA CHALLENGE.jpg)
+![Zelestra x AWS ML Ascend Challenge](ASSETS/ZELESTRA CHALLENGE.jpg)
 
 - Predict **solar PV power output** and **efficiency** with high accuracy.
 - Attribute losses to temperature, irradiance variability, and tracker performance.
