@@ -6,7 +6,7 @@ Machine learning models for solar PV efficiency and power output prediction — 
 
 ---
 
-## 👥 Team
+##  Team
 
 **DRAGON TECH**
 - Gurkirat Singh (`gsingh9_be23@thapar.edu`)
@@ -15,7 +15,7 @@ Machine learning models for solar PV efficiency and power output prediction — 
 
 ---
 
-## ⚠️ Dataset Notice
+##  Dataset Notice
 
 This project was built using operational solar power plant data provided **exclusively** for the Zelestra x AWS ML Ascend Challenge.  
 
@@ -24,7 +24,7 @@ This project was built using operational solar power plant data provided **exclu
 
 ---
 
-## 🚀 Project Goals
+##  Project Goals
 
 ![Zelestra x AWS ML Ascend Challenge](ASSETS/ZELESTRA_CHALLENGE.jpg)
 
@@ -34,24 +34,24 @@ This project was built using operational solar power plant data provided **exclu
 
 ---
 
-## 💡 Model Overview
+##  Model Overview
 
 We designed **two models** for this challenge:
 
-### 1️⃣ Primary Model: Ensemble Stacking  
+### Primary Model: Ensemble Stacking  
 - Combines Ridge, ElasticNet, Bayesian Ridge, KNN, Random Forest, Extra Trees, Gradient Boosting, and SVR as base learners.  
 - Meta-learner: Ridge Regression (optimized via cross-validation).  
 - Features: Advanced time-aware engineering + interaction terms + polynomials.  
 - Evaluation: 5-fold cross-validation stacking + hold-out test set.
 
-### 2️⃣ Alternate Model: XGBoost + ElasticNet Hybrid  
+### Alternate Model: XGBoost + ElasticNet Hybrid  
 - XGBoost for core predictions.  
 - ElasticNet for residual correction.  
 - Optimized hyperparameters and feature selection voting.
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Metric                         | Ensemble Stacking | XGBoost + ElasticNet |
 |---------------------------------|------------------|---------------------|
@@ -64,7 +64,7 @@ We designed **two models** for this challenge:
 
 ---
 
-## 🔑 Highlights
+##  Highlights
 
 - Intelligent KNN imputation
 - Datetime feature extraction + cyclical encoding
@@ -76,14 +76,14 @@ We designed **two models** for this challenge:
 
 ---
 
-## 📂 Repo Structure
+## Repo Structure
 
 - `Phase-1/` — Baseline model and dataset exploration  
 - `Phase-2/EDA/` — Advanced exploratory analysis  
 - `Phase-2/Model/` — Final model notebooks (submission)  
 ---
 
-## 📝 Usage Example
+##  Usage Example
 
 ```python
 import pandas as pd
